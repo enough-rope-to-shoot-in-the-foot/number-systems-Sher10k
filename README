@@ -1,0 +1,35 @@
+number_systems -- учебный проект. Переводим в разные системы счисления.
+
+
+Необходимо:
+
+
+0. форкнуть этот реп.
+
+
+1. переименовать rename_me_main.cpp на свою фамилию (gromtsev.cpp).
+
+
+2. в CMakeLists.txt поменять строку 
+    add_executable(${PROJECT_NAME} "rename_me_main.cpp")
+
+
+3. Написать функцию 
+    std::string to_system( int num, int base );
+    и убедится, что она работает.
+    
+    
+4. закоммитить только файл с решением. 
+    NB! без CMakeLists.txt!!
+    
+    git add gromtsev.cpp
+    git commit -m "Решение первого задания от _____________";
+    
+    
+5. сделать pull request в главный реп.
+
+
+...
+
+
+PROFIT!!!
